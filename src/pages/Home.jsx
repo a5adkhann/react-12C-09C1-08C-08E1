@@ -1,17 +1,14 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import Slideshow from '../features/Slideshow'
 
 const Home = () => {
   return (
-    <div>
+    <>
 
-      <p className='bg-red-600'>Home</p>
+      <Slideshow/>
 
-      <br />
-
-      <Link to="/about">Go to About Component</Link>
-
-    </div>
+    </>
   )
 }
 
