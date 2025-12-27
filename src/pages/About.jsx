@@ -1,10 +1,11 @@
 import React from 'react'
+import State from '../hooks/State'
 
 const About = () => {
   return (
-    <div>
-      About
-    </div>
+    <>
+        <State/>
+    </>
   )
 }
 
